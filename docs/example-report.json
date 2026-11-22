@@ -1,0 +1,163 @@
+{
+  "summary": "2 of 7 events were blocked spends. A blocked spend leaves every balance unchanged.",
+  "metrics": {
+    "Events": 7,
+    "Blocked spends": 2,
+    "Phases": 2,
+    "Resources": 2
+  },
+  "rows": [
+    {
+      "Phase": "Harbor",
+      "Event": "welcome",
+      "Action": "grant",
+      "Resource": "shells",
+      "Opening": 15,
+      "Requested": 20,
+      "Applied change": 20,
+      "Shortfall": 0,
+      "Closing": 35,
+      "Status": "Applied"
+    },
+    {
+      "Phase": "Harbor",
+      "Event": "forge-anchor",
+      "Action": "spend",
+      "Resource": "shells",
+      "Opening": 35,
+      "Requested": 25,
+      "Applied change": 0,
+      "Shortfall": 0,
+      "Closing": 35,
+      "Status": "Blocked"
+    },
+    {
+      "Phase": "Harbor",
+      "Event": "forge-anchor",
+      "Action": "spend",
+      "Resource": "copper",
+      "Opening": 0,
+      "Requested": 2,
+      "Applied change": 0,
+      "Shortfall": 2,
+      "Closing": 0,
+      "Status": "Blocked"
+    },
+    {
+      "Phase": "Harbor",
+      "Event": "salvage",
+      "Action": "grant",
+      "Resource": "copper",
+      "Opening": 0,
+      "Requested": 3,
+      "Applied change": 3,
+      "Shortfall": 0,
+      "Closing": 3,
+      "Status": "Applied"
+    },
+    {
+      "Phase": "Harbor",
+      "Event": "build-anchor",
+      "Action": "spend",
+      "Resource": "shells",
+      "Opening": 35,
+      "Requested": 25,
+      "Applied change": -25,
+      "Shortfall": 0,
+      "Closing": 10,
+      "Status": "Applied"
+    },
+    {
+      "Phase": "Harbor",
+      "Event": "build-anchor",
+      "Action": "spend",
+      "Resource": "copper",
+      "Opening": 3,
+      "Requested": 2,
+      "Applied change": -2,
+      "Shortfall": 0,
+      "Closing": 1,
+      "Status": "Applied"
+    },
+    {
+      "Phase": "Reef",
+      "Event": "buy-map",
+      "Action": "spend",
+      "Resource": "shells",
+      "Opening": 10,
+      "Requested": 14,
+      "Applied change": 0,
+      "Shortfall": 4,
+      "Closing": 10,
+      "Status": "Blocked"
+    },
+    {
+      "Phase": "Reef",
+      "Event": "reef-contract",
+      "Action": "grant",
+      "Resource": "shells",
+      "Opening": 10,
+      "Requested": 12,
+      "Applied change": 12,
+      "Shortfall": 0,
+      "Closing": 22,
+      "Status": "Applied"
+    },
+    {
+      "Phase": "Reef",
+      "Event": "reef-contract",
+      "Action": "grant",
+      "Resource": "copper",
+      "Opening": 1,
+      "Requested": 2,
+      "Applied change": 2,
+      "Shortfall": 0,
+      "Closing": 3,
+      "Status": "Applied"
+    },
+    {
+      "Phase": "Reef",
+      "Event": "fit-sonar",
+      "Action": "spend",
+      "Resource": "shells",
+      "Opening": 22,
+      "Requested": 20,
+      "Applied change": -20,
+      "Shortfall": 0,
+      "Closing": 2,
+      "Status": "Applied"
+    },
+    {
+      "Phase": "Reef",
+      "Event": "fit-sonar",
+      "Action": "spend",
+      "Resource": "copper",
+      "Opening": 3,
+      "Requested": 3,
+      "Applied change": -3,
+      "Shortfall": 0,
+      "Closing": 0,
+      "Status": "Applied"
+    }
+  ],
+  "closing_balances": {
+    "shells": 2,
+    "copper": 0
+  },
+  "phases": {
+    "Harbor": {
+      "events": 4,
+      "blocked_spends": 1,
+      "shortfalls": {
+        "copper": 2
+      }
+    },
+    "Reef": {
+      "events": 3,
+      "blocked_spends": 1,
+      "shortfalls": {
+        "shells": 4
+      }
+    }
+  }
+}

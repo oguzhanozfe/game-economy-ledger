@@ -1,0 +1,68 @@
+{
+  "opening": {
+    "shells": 15,
+    "copper": 0
+  },
+  "events": [
+    {
+      "id": "welcome",
+      "phase": "Harbor",
+      "kind": "grant",
+      "amounts": {
+        "shells": 20
+      }
+    },
+    {
+      "id": "forge-anchor",
+      "phase": "Harbor",
+      "kind": "spend",
+      "amounts": {
+        "shells": 25,
+        "copper": 2
+      }
+    },
+    {
+      "id": "salvage",
+      "phase": "Harbor",
+      "kind": "grant",
+      "amounts": {
+        "copper": 3
+      }
+    },
+    {
+      "id": "build-anchor",
+      "phase": "Harbor",
+      "kind": "spend",
+      "amounts": {
+        "shells": 25,
+        "copper": 2
+      }
+    },
+    {
+      "id": "buy-map",
+      "phase": "Reef",
+      "kind": "spend",
+      "amounts": {
+        "shells": 14
+      }
+    },
+    {
+      "id": "reef-contract",
+      "phase": "Reef",
+      "kind": "grant",
+      "amounts": {
+        "shells": 12,
+        "copper": 2
+      }
+    },
+    {
+      "id": "fit-sonar",
+      "phase": "Reef",
+      "kind": "spend",
+      "amounts": {
+        "shells": 20,
+        "copper": 3
+      }
+    }
+  ]
+}
