@@ -2,6 +2,8 @@
 
 Replay game rewards and purchases in order to expose blocked spends and resource shortfalls by phase.
 
+**[Open the live demo](https://oguzhanozfe.github.io/game-economy-ledger/)** · [Browser features and setup](demo/DEMO.md)
+
 ![Game Economy Ledger showing the included example in the browser](docs/preview.png)
 
 [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/game-economy-ledger) · [Example input](example.json) · [Computed report](docs/example-report.json) · [Model settings](#connect-a-model)

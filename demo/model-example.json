@@ -1,0 +1,19 @@
+{
+  "model": "gemma-4-e4b-it",
+  "text": "Row 3 · Why was the copper spend for 'forge-anchor' blocked with a shortfall of 2?",
+  "row": 3,
+  "record": {
+    "Phase": "Harbor",
+    "Event": "forge-anchor",
+    "Action": "spend",
+    "Resource": "copper",
+    "Opening": 0,
+    "Requested": 2,
+    "Applied change": 0,
+    "Shortfall": 2,
+    "Closing": 0,
+    "Status": "Blocked"
+  },
+  "source_sha256": "4f308c6cbc175f9222c72b396c6f53d9c164bede325dbeee5cfb8b0e3f6c8732",
+  "report_sha256": "26bd8a3a009b42dcbb9452d910eb7466b6e09ce2432e065c5ebeae2e86d332e3"
+}
